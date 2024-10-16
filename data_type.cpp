@@ -17,7 +17,6 @@ int main()
     // double = 8 bytes
     // char = 1 byte
 
-    cout << sizeof(int);
-    cout << sizeof(float);
+    cout << sizeof(int) << " " << sizeof(long long int);
     return 0;
 }
