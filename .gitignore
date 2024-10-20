@@ -1,4 +1,4 @@
 *.exe
 settings.json
 tempCodeRunnerFile.cpp
-/.cph/
+.cph/
