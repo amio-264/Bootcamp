@@ -5,12 +5,11 @@ int main()
     char ch;
     cout << "Enter a character: ";
     cin >> ch;
-    if(ch=='z'){
+    if (ch == 'z'){
         cout << 'a';
     }
-    else if (ch >= 'a' || ch <= 'z'){
-        ch++;
-        cout << ch;
+    else{
+        cout << char(ch + 1);
     }
-        return 0;
+    return 0;
 }
